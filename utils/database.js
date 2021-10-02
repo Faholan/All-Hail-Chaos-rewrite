@@ -9,4 +9,3 @@ const disconnect = async () => {
 
 // Export the client
 module.exports = { prisma, disconnect };
-
