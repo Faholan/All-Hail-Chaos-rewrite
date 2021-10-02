@@ -1,0 +1,32 @@
+{
+  "name": "all-hail-chaos-rewrite",
+  "version": "1.0.0",
+  "description": "A multipurpose discord bot",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "axios": "^0.22.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faholan/All-Hail-Chaos-rewrite.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord-bot",
+    "discord.js"
+  ],
+  "author": "Faholan",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Faholan/All-Hail-Chaos-rewrite/issues"
+  },
+  "homepage": "https://github.com/Faholan/All-Hail-Chaos-rewrite#readme"
+}
