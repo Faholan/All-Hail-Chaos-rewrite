@@ -13,10 +13,7 @@ dotenv.config();
 // Initialize the client
 const client = new Client({
   disableEveryone: true,
-  intents: [
-    Intents.FLAGS.GUILDS,
-    Intents.FLAGS.GUILD_MESSAGES,
-  ],
+  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
   allowedMentions: {
     parse: ["users"],
   },
@@ -41,7 +38,7 @@ const init = async () => {
   const commandFiles = await readdir("./commands/");
 
   // Log it
-    console.log(chalk.yellow`Loading ${commandFiles.length} commands.`);
+  console.log(chalk.yellow`Loading ${commandFiles.length} commands.`);
 
   for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
